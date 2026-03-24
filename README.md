@@ -2,7 +2,7 @@
 This method centers the data around a Mean of 0 and a Standard Deviation of 1. 
 It transforms the data into a "Normal Distribution" shape.
 # Formula:
-$$x_{scaled} = \frac{x - \mu}{\sigma}$$
+$$x_{scaled} = \frac{x - \mu}{\sigma}$$.  
 (Where $\mu$ is the Mean and $\sigma$ is the Standard Deviation)
 
 
