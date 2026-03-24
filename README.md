@@ -6,4 +6,8 @@ It scales the data into a range between -1 and 1.
 # Formula:
 $$x_{scaled} = \frac{x}{|x_{max}|}$$
 
-
+# RobustScaler:
+RobustScaler is the "Bodyguard" of scalers. 
+It is used when your data has Outliers (extreme values). 
+Unlike StandardScaler or MinMaxScaler, it uses the Median and Interquartile Range (IQR) instead of the Mean,
+so outliers don't pull the scale away.
