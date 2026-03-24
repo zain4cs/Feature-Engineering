@@ -38,8 +38,9 @@ $$x_{scaled} = \frac{x - Median}{IQR}$$
 
 
 # When to use which method?
-Method,Best Condition to Use
-MinMaxScaler,Use when you know the exact boundaries (like Image Pixels 0-255) and have no outliers.
-StandardScaler,Use when your data follows a Normal Distribution (Bell Curve) and for most Linear models.
-MaxAbsScaler,Use when your data is Sparse (has many Zeros) to keep the zeros as zeros.
-RobustScaler,Use when your data has many Outliers that you don't want to remove.
+| Method | Best Condition to Use |
+| :--- | :--- |
+| **MinMaxScaler** | Use when you know the exact boundaries (like Image Pixels 0-255) and have no outliers. |
+| **StandardScaler** | Use when your data follows a Normal Distribution (Bell Curve) and for most Linear models. |
+| **MaxAbsScaler** | Use when your data is Sparse (has many Zeros) to keep the zeros as zeros. |
+| **RobustScaler** | Use when your data has many Outliers that you don't want to remove. |
